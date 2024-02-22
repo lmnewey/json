@@ -14,13 +14,13 @@
 #include <tuple> // tuple
 #include <string> // char_traits
 
-#include <nlohmann/detail/iterators/iterator_traits.hpp>
-#include <nlohmann/detail/macro_scope.hpp>
-#include <nlohmann/detail/meta/call_std/begin.hpp>
-#include <nlohmann/detail/meta/call_std/end.hpp>
-#include <nlohmann/detail/meta/cpp_future.hpp>
-#include <nlohmann/detail/meta/detected.hpp>
-#include <nlohmann/json_fwd.hpp>
+#include <json/nlohmann/detail/iterators/iterator_traits.hpp>
+#include <json/nlohmann/detail/macro_scope.hpp>
+#include <json/nlohmann/detail/meta/call_std/begin.hpp>
+#include <json/nlohmann/detail/meta/call_std/end.hpp>
+#include <json/nlohmann/detail/meta/cpp_future.hpp>
+#include <json/nlohmann/detail/meta/detected.hpp>
+#include <json/nlohmann/json_fwd.hpp>
 
 NLOHMANN_JSON_NAMESPACE_BEGIN
 /*!
