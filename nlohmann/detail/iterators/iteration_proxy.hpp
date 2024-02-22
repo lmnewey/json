@@ -18,9 +18,9 @@
     #include <ranges> // enable_borrowed_range
 #endif
 
-#include <nlohmann/detail/abi_macros.hpp>
-#include <nlohmann/detail/meta/type_traits.hpp>
-#include <nlohmann/detail/value_t.hpp>
+#include <json/nlohmann/detail/abi_macros.hpp>
+#include <json/nlohmann/detail/meta/type_traits.hpp>
+#include <json/nlohmann/detail/value_t.hpp>
 
 NLOHMANN_JSON_NAMESPACE_BEGIN
 namespace detail

@@ -13,9 +13,9 @@
 #include <utility> // move
 #include <vector> // vector
 
-#include <nlohmann/detail/exceptions.hpp>
-#include <nlohmann/detail/macro_scope.hpp>
-#include <nlohmann/detail/string_concat.hpp>
+#include <json/nlohmann/detail/exceptions.hpp>
+#include <json/nlohmann/detail/macro_scope.hpp>
+#include <json/nlohmann/detail/string_concat.hpp>
 
 NLOHMANN_JSON_NAMESPACE_BEGIN
 

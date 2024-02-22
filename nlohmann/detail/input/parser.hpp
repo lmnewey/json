@@ -15,14 +15,14 @@
 #include <utility> // move
 #include <vector> // vector
 
-#include <nlohmann/detail/exceptions.hpp>
-#include <nlohmann/detail/input/input_adapters.hpp>
-#include <nlohmann/detail/input/json_sax.hpp>
-#include <nlohmann/detail/input/lexer.hpp>
-#include <nlohmann/detail/macro_scope.hpp>
-#include <nlohmann/detail/meta/is_sax.hpp>
-#include <nlohmann/detail/string_concat.hpp>
-#include <nlohmann/detail/value_t.hpp>
+#include <json/nlohmann/detail/exceptions.hpp>
+#include <json/nlohmann/detail/input/input_adapters.hpp>
+#include <json/nlohmann/detail/input/json_sax.hpp>
+#include <json/nlohmann/detail/input/lexer.hpp>
+#include <json/nlohmann/detail/macro_scope.hpp>
+#include <json/nlohmann/detail/meta/is_sax.hpp>
+#include <json/nlohmann/detail/string_concat.hpp>
+#include <json/nlohmann/detail/value_t.hpp>
 
 NLOHMANN_JSON_NAMESPACE_BEGIN
 namespace detail
