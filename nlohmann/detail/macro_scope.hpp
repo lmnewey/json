@@ -15,7 +15,7 @@
 // This file contains all internal macro definitions (except those affecting ABI)
 // You MUST include macro_unscope.hpp at the end of json.hpp to undef all of them
 
-#include <nlohmann/detail/abi_macros.hpp>
+#include <json/nlohmann/detail/abi_macros.hpp>
 
 // exclude unsupported compilers
 #if !defined(JSON_SKIP_UNSUPPORTED_COMPILER_CHECK)
