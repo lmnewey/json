@@ -17,13 +17,13 @@
 #include <string> // to_string
 #include <vector> // vector
 
-#include <nlohmann/detail/value_t.hpp>
-#include <nlohmann/detail/string_escape.hpp>
-#include <nlohmann/detail/input/position_t.hpp>
-#include <nlohmann/detail/macro_scope.hpp>
-#include <nlohmann/detail/meta/cpp_future.hpp>
-#include <nlohmann/detail/meta/type_traits.hpp>
-#include <nlohmann/detail/string_concat.hpp>
+#include <json/nlohmann/detail/value_t.hpp>
+#include <json/nlohmann/detail/string_escape.hpp>
+#include <json/nlohmann/detail/input/position_t.hpp>
+#include <json/nlohmann/detail/macro_scope.hpp>
+#include <json/nlohmann/detail/meta/cpp_future.hpp>
+#include <json/nlohmann/detail/meta/type_traits.hpp>
+#include <json/nlohmann/detail/string_concat.hpp>
 
 NLOHMANN_JSON_NAMESPACE_BEGIN
 namespace detail
