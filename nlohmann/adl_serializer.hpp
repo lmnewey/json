@@ -50,6 +50,18 @@ struct adl_serializer
     {
         ::nlohmann::to_json(j, std::forward<TargetType>(val));
     }
+
+    // Specialization for std::chrono::system_clock::time_point
+    template <>
+    struct adl_serializer<std::chrono::system_clock::time_point> {
+        static void to_json(json& j, const std::chrono::system_clock::time_point& tp) {
+            j = std::chrono::system_clock::to_time_t(tp);
+        }
+
+        static void from_json(const json& j, std::chrono::system_clock::time_point& tp) {
+            auto seconds_since_epoch = j.get<std::time_t>();
+            tp = std::chrono::system_clock::from_time_t(seconds_since_epoch);
+        }
 };
 
 NLOHMANN_JSON_NAMESPACE_END
