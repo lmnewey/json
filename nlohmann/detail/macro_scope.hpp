@@ -9,8 +9,8 @@
 #pragma once
 
 #include <utility> // declval, pair
-#include <nlohmann/detail/meta/detected.hpp>
-#include <nlohmann/thirdparty/hedley/hedley.hpp>
+#include <json/nlohmann/detail/meta/detected.hpp>
+#include <json/nlohmann/thirdparty/hedley/hedley.hpp>
 
 // This file contains all internal macro definitions (except those affecting ABI)
 // You MUST include macro_unscope.hpp at the end of json.hpp to undef all of them
